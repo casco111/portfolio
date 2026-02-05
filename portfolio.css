@@ -314,6 +314,19 @@ footer {
     border-top: 1px solid var(--border);
 }
 
+/* Footer links should follow theme (black/white-ish) */
+footer a,
+footer a:visited {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus-visible {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
 /* Theme toggle button */
 #theme-toggle {
     margin-left: 1rem;
