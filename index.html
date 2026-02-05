@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Maximilian Helm</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script defer src="portfolio.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Maximilian Helm</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#interests">Interests</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme"><img id="theme-icon" class="icon"
+        alt="" aria-hidden="true" /></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-header">
+        <img class="hero-avatar" src="images/profile1.jpg" alt="Your portrait" id="avatarImg" />
+        <div>
+          <div class="hero-header">
+            <h2>Hi, I’m Max </h2>
+            <div class="hand">👋</div>
+          </div>
+          <div class="location">
+            <img src="images/location.png" class="icon" alt="Location icon" aria-hidden="true">
+            <span class="location-text">Mödling, Austria</span>
+          </div>
+        </div>
+
+      </div>
+
+      <p>
+        Computer Science student in Austria with strong academic performance,
+        hands-on coding projects, and a passion for building creative software solutions.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <div class="card">
+          <img src="images/piano.png" class="larger-icon" alt="">
+          <h4>PianoScore Converter</h4>
+          <p>A program that converts Synthesia piano videos into readable sheet music, outputted as MIDI files.</p>
+          <a href="#">View on GitHub</a>
+        </div>
+        <div class="card">
+          <img src="images/cityHunt.png" class="larger-icon" alt="">
+          <h4>City Hunt</h4>
+          <p>A game and editor that lets users create and play city-based scavenger hunts, with real-time location tracking for an interactive experience.</p>
+          <a href="#">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h3>Education</h3>
+      <div class="card" style="max-width:600px; margin:0 auto; text-align:center;">
+        <h4>Bachelor in Computer Science</h4>
+        <p>Vienna University of Technology • Expected Graduation: 2027</p>
+        <p>Grade average: 1.06 (scale, 1 = best) – roughly comparable to a 4.0 GPA </p>
+      </div>
+    </section>
+
+
+    <section id="skills" style="text-align: center;">
+      <h3>Skills</h3>
+      <h4>Dev</h4>
+      <div class="skills-grid">
+        <div class="card">
+          <img src="images/java.png" class="icon" alt="">
+          <span class="skill-label">Java</span>
+        </div>
+        <div class="card">
+          <img src="images/java-script.png" class="icon" alt="">
+          <span class="skill-label">JavaScript</span>
+        </div>
+        <div class="card">
+          <img src="images/github.png" class="icon" alt="">
+          <span class="skill-label">Html</span>
+        </div>
+        <div class="card">
+          <img src="images/github.png" class="icon" alt="">
+          <span class="skill-label">Css</span>
+        </div>
+        <div class="card">
+          <img src="images/github.png" class="icon" alt="">
+          <span class="skill-label">C#</span>
+        </div>
+        <div class="card">
+          <img src="images/github.png" class="icon" alt="">
+          <span class="skill-label">SQL</span>
+        </div>
+        <div class="card">
+          <img src="images/github.png" class="icon" alt="">
+          <span class="skill-label">Python</span>
+        </div>
+      </div>
+      <h4>Languages</h4>
+      <div class="skills-grid">
+        <div class="card">
+          <span></span>
+          <span class="skill-label">German (native)</span>
+        </div>
+        <div class="card">
+          <span></span>
+          <span class="skill-label">English (C1) <span>
+        </div>
+        <div class="card">
+          <span></span>
+          <span class="skill-label">French (B1)<span>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h3>Interests</h3>
+      <p style="text-align:center; max-width:700px; margin:0 auto; color:var(--text-light); font-size:1.05rem;">
+        I enjoy developing creative projects and combining my interests with programming. 
+        Outside of coding, I am active in calisthenics, play volleyball and pursue artistic interests.
+      </p>
+    </section>
+
+    
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p style="text-align:center; color:var(--text-light);">Feel free to reach out:</p>
+      <div class="contact-links">
+        <a href="mailto:maximilian111.helm@gmail.com" aria-label="Email">
+          <img src="images/mail.png" class="icon" alt="">
+        </a>
+        <a href="https://github.com/casco111" aria-label="GitHub"><img src="images/github.png" class="icon" alt=""></a>
+        <!---<a href="https://linkedin.com/in/" aria-label="LinkedIn"><img src="images/linkedin-logo.png" class="icon" alt=""></a> --->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Maximilian Helm.
+  </footer>
+
+
+</body>
+
+</html>
